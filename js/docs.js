@@ -4,35 +4,35 @@
     const documents = [
       {
         "titre": "Boîte Mystère",
-        "fichier": "1_5eme/chap1/0_boite_mystere_activite_de_declenchement.pdf",
+        "fichier": "https://drive.google.com/file/d/1hW1JpRpdBtQmmsE8N073wD8xwXGUvqHu/view?usp=drive_link",
         "theme": "Découvrir et analyser les OST",
         "classe": "5e",
         "type": "acti_groupe"
       },
       {
         "titre": "Exprimer un besoin",
-        "fichier": "1_5eme/chap1/1_exprimer_un_besoin_cours.pdf",
+        "fichier": "https://drive.google.com/file/d/1tiBTOXwjE96TERRfUZTthT6C-nKBV-QP/view?usp=drive_link",
         "theme": "Découvrir et analyser les OST",
         "classe": "5e",
         "type": "cours"
       },
 	  {
         "titre": "Timeline en classe",
-        "fichier": "3_3eme/chap1/0_Timeline_en_classe_activite_de_declenchement.pdf",
+        "fichier": "https://drive.google.com/file/d/1LRd7fK51fAk4POMorhtXQPju5DEVtXF_/view?usp=drive_link",
         "theme": "Découvrir et analyser les OST",
         "classe": "3e",
         "type": "acti_groupe"
       },
 	  {
         "titre": "L'influence de la technologie",
-        "fichier": "3_3eme/chap1/1_influence_de_la_technologie_cours.pdf",
+        "fichier": "https://drive.google.com/file/d/14tznFGWI7wjdm72JGXtdUD-su6s5UKmj/view?usp=drive_link",
         "theme": "Découvrir et analyser les OST",
         "classe": "3e",
         "type": "cours"
       },
 	  {
         "titre": "Presentation d'un objet",
-        "fichier": "3_3eme/chap1/2_presentation_evolution_d_un_objet_technique.pdf",
+        "fichier": "https://drive.google.com/file/d/1IPCt5XYOZht6wCyujQEOeAsVHLdNFr4H/view?usp=drive_link",
         "theme": "Découvrir et analyser les OST",
         "classe": "3e",
         "type": "pres"
@@ -61,4 +61,5 @@
         "classe": "OST",
         "type": "synth"
       }
+
     ];
