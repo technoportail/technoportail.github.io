@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Technoportail</title>
+
+    <!-- W3.CSS -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"/>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet"/>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+
+	<!-- style.css -->
+	<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+    <div class="main-content">
+            <h1>Bienvenue</h1>
+			
+			<p class="intro-text">
+				<strong>Élève, parent, professeur,</strong> bienvenue dans votre espace central pour le cours de <strong>Technologie</strong> de M. Capaldi. Retrouvez vos documents, activités numériques et projets dans une interface simple et efficace !
+			</p>
+			
+			<h2>Qu'est-ce qui vous amène aujourd'hui ?</h2>
+			
+			<!-- Tous les icons viennent de https://www.flaticon.com/fr/auteurs/smashingstocks ; Merci à eux !-->
+			
+			<div class="image-card w3-indigo" onclick="window.location.href='classeurs.html'">
+				<img src="img/des-dossiers.png" alt="Illustration d'accueil" style="width:100px"/>
+				<p style="margin-left:20px">Parcourir les classeurs de technologie ou rattrapper ses cours</p>
+			</div>
+			<br/>
+			<div class="image-card w3-amber" onclick="window.location.href='activites.html'">
+				<p style="margin-right:20px">(Re)faire les activités numériques en classe ou à la maison</p>
+				<img src="img/education-en-ligne.png" alt="Illustration d'accueil"  style="width:100px"/>
+			</div>
+			<br/>
+			<div class="image-card w3-teal" onclick="window.location.href='projets.html'">
+				<img src="img/toile.png" alt="Illustration d'accueil"  style="width:100px"/>
+				<p style="margin-left:20px">Découvrir les projets à réaliser en classe</p>
+			</div>
+
+			<div class="spacer"></div>
+		
+    </div>
+
+    <!-- Bottom Navigation Bar -->
+    <div class="bottom-bar">
+        <div class="icon-btn active">
+            <i class="fas fa-home"></i>
+        </div>
+        <div class="icon-btn" onclick="window.location.href='classeurs.html'">
+            <i class="fas fa-book-atlas"></i>
+        </div>
+        <div class="icon-btn"  onclick="window.location.href='activites.html'">
+            <i class="fas fa-desktop"></i>
+        </div>
+        <div class="icon-btn" onclick="window.location.href='projets.html'">
+            <i class="fas fa-shapes"></i>
+        </div>
+    </div>
+		
+	<script src="js/docs.js"></script>	
+    <script src="js/script.js"></script>
+
+</body>
+</html>
