@@ -39,7 +39,7 @@
       },
 	  {
         "titre": "Presentation d'un objet (ressources)",
-        "fichier": "",
+        "fichier": "https://drive.google.com/file/d/1F2q3_hTyuivu1c6SJN-ZtSujA7_FwH-h/view?usp=drive_link",
         "theme": "Découvrir et analyser les OST",
         "classe": "3e",
         "type": "cours"
@@ -128,4 +128,5 @@
       }
 	  
     ];
+
 
