@@ -16,6 +16,27 @@
         "classe": "5e",
         "type": "cours"
       },
+		{
+        "titre": "Dessine-moi une trottinette",
+        "fichier": "https://drive.google.com/file/d/1rJxH25fdjdWuQhlGoRbXPui__n_9GkQw/view?usp=drive_link",
+        "theme": "Découvrir et analyser les OST",
+        "classe": "5e",
+        "type": "acti_groupe"
+      },
+		{
+        "titre": "Composants d'une chaîne d'énergie",
+        "fichier": "https://drive.google.com/file/d/1j5SFiO9xKMlob4E2AcHD25ub_rhllbSS/view?usp=drive_link",
+        "theme": "Découvrir et analyser les OST",
+        "classe": "5e",
+        "type": "synth"
+      },
+		{
+        "titre": "Exercices sur le besoin et chaîne d'énergie",
+        "fichier": "https://drive.google.com/file/d/1yeZk6297KQ1f45FJVkZxtSA9nK49j2Y7/view?usp=drive_link",
+        "theme": "Découvrir et analyser les OST",
+        "classe": "5e",
+        "type": "acti_ecrite"
+      },	
 	  {
         "titre": "Timeline en classe",
         "fichier": "https://drive.google.com/file/d/1LRd7fK51fAk4POMorhtXQPju5DEVtXF_/view?usp=drive_link",
@@ -134,6 +155,7 @@
       }
 	  
     ];
+
 
 
 
