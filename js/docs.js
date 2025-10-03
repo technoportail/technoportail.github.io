@@ -31,7 +31,7 @@
         "type": "synth"
       },
 		{
-        "titre": "Exercices sur le besoin et chaîne d'énergie",
+        "titre": "Besoin et chaîne d'énergie (Exercices)",
         "fichier": "https://drive.google.com/file/d/1yeZk6297KQ1f45FJVkZxtSA9nK49j2Y7/view?usp=drive_link",
         "theme": "Découvrir et analyser les OST",
         "classe": "5e",
@@ -59,7 +59,7 @@
         "type": "pres"
       },
 	  {
-        "titre": "Presentation d'un objet (ressources)",
+        "titre": "Presentation d'un objet (Ressources)",
         "fichier": "https://drive.google.com/file/d/1F2q3_hTyuivu1c6SJN-ZtSujA7_FwH-h/view?usp=drive_link",
         "theme": "Découvrir et analyser les OST",
         "classe": "3e",
@@ -155,6 +155,7 @@
       }
 	  
     ];
+
 
 
 
