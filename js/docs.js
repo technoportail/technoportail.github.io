@@ -44,7 +44,13 @@
         "classe": "3e",
         "type": "cours"
       },
-	  
+	  {
+        "titre": "Presentation d'un objet (Grille d'éval)",
+        "fichier": "https://drive.google.com/file/d/1O2cz5sCdt6NpJkId0xisx_e2B6x92EpM/view?usp=drive_link",
+        "theme": "Découvrir et analyser les OST",
+        "classe": "3e",
+        "type": "synth"
+      },
 	  // Synthèses OST
 	  {
         "titre": "Liste des fiches connaissances",
@@ -128,5 +134,6 @@
       }
 	  
     ];
+
 
 
