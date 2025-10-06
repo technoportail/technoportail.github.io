@@ -3,18 +3,42 @@
     // ----------------------------
     const documents = [
       {
-        "titre": "Activité 1 : Exprimer un Besoin",
+        "titre": "Exprimer un Besoin",
         "fichier": "https://docs.google.com/forms/d/e/1FAIpQLSfaXVKoSO592ie9xqehmhJ8pxwoTTBqOO9YHjjbr5xhFScXbQ/viewform?usp=dialog",
-		"im": "img/vignettes_acti/acti1.jpg",
+		"im": "img/vignettes_acti/acti_besoin.jpg",
+        "theme": "Découvrir et analyser les OST",
+        "classe": "5e",
+        "type": "acti_num"
+      },
+	  {
+        "titre": "Trotti-shop, le magasin de trottinettes",
+        "fichier": "https://docs.google.com/forms/d/e/1FAIpQLSdQiQxHAbu0s38rn9ok_MMBdpyS0TkCSmfgInGBx_Ruk5dimQ/viewform?usp=dialog",
+		"im": "img/vignettes_acti/trottishop.jpg",
         "theme": "Découvrir et analyser les OST",
         "classe": "5e",
         "type": "acti_num"
       },
       {
-        "titre": "Activité 1 : Evolution des objets",
+        "titre": "Evolution des objets",
         "fichier": "",
-		"im": "img/vignettes_acti/acti2.jpg",
+		"im": "img/vignettes_acti/evolution_obj.jpg",
         "theme": "Découvrir et analyser les OST",
+        "classe": "3e",
+        "type": "acti_num"
+      },
+	  {
+        "titre": "Chaine d'énergie des objets du quotidien",
+        "fichier": "",
+		"im": "img/vignettes_acti/chaine_ener_moteur.jpg",
+        "theme": "Structure et fonctionnement des OST",
+        "classe": "5e",
+        "type": "acti_num"
+      },
+	  {
+        "titre": "Internet, la pollution cachée",
+        "fichier": "",
+		"im": "img/vignettes_acti/internet_impact.jpg",
+        "theme": "Structure et fonctionnement des OST",
         "classe": "3e",
         "type": "acti_num"
       }
