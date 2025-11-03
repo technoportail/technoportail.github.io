@@ -141,7 +141,7 @@
 	  {
         "titre": "Rôle des composants d'un réseau",
         "fichier": "",
-        "theme": "Fiches connaissancess",
+        "theme": "Fiches connaissances",
         "classe": "SFC",
         "type": "synth"
       },
@@ -161,6 +161,7 @@
       }
 	  
     ];
+
 
 
 
