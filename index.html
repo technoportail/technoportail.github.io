@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -18,13 +18,20 @@
 	<!-- style.css -->
 	<link rel="stylesheet" href="style.css"/>
 </head>
-<body>
+
+<body style="--cover-image: url('img/headers/circuit_jpg.jpg'); --accent-rgb: 0,0,0;">
 
     <div class="main-content">
-            <h1>Bienvenue</h1>
+            <h1>Bienvenue sur </br><span class="extratitle">Technoportail</span></h1>
+			<!-- <p class="subtitle">L'Espace Numérique de Technologie !</p> -->
 			
 			<p class="intro-text">
-				<strong>Élève, parent, professeur,</strong> bienvenue dans votre espace central pour le cours de <strong>Technologie</strong> de M. Capaldi. Retrouvez vos documents, activités numériques et projets dans une interface simple et efficace !
+			<!-- <strong>Élèves, parents et professeurs,</strong> vous êtes ici sur l’ENT du cours de <strong>Technologie</strong> de M. Capaldi. -->
+			Un portail vers les cours de <strong>Technologie</strong> de </br>M. Capaldi, à destination des <strong>élèves, parents et professeurs !</strong>
+			</p>
+					
+			<p class="subtitle">
+			(Disclaimer : Technoportail est en constante évolution. Faites moi vos retour d'experience à l'adresse <strong>timothee.capaldi@ac-lyon.fr</strong> ou via l'ENT du collège.)
 			</p>
 			
 			<h2>Qu'est-ce qui vous amène aujourd'hui ?</h2>
@@ -33,7 +40,7 @@
 			
 			<div class="image-card w3-indigo" onclick="window.location.href='classeurs.html'">
 				<img src="img/des-dossiers.png" alt="Illustration d'accueil" style="width:100px"/>
-				<p style="margin-left:20px">Parcourir les classeurs de technologie ou rattrapper ses cours</p>
+				<p style="margin-left:20px">Parcourir le classeur du professeur ou rattrapper ses cours</p>
 			</div>
 			<br/>
 			<div class="image-card w3-amber" onclick="window.location.href='activites.html'">
@@ -45,9 +52,8 @@
 				<img src="img/toile.png" alt="Illustration d'accueil"  style="width:100px"/>
 				<p style="margin-left:20px">Découvrir les projets à réaliser en classe</p>
 			</div>
-
+					
 			<div class="spacer"></div>
-		
     </div>
 
     <!-- Bottom Navigation Bar -->
@@ -71,4 +77,3 @@
 
 </body>
 </html>
-
