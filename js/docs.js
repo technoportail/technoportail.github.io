@@ -2,6 +2,7 @@
     // Données JSON intégrées ici
     // ----------------------------
     const documents = [
+	// Découvrir et analyser les OST
       {
         "titre": "Boîte Mystère",
         "fichier": "https://drive.google.com/file/d/1hW1JpRpdBtQmmsE8N073wD8xwXGUvqHu/view?usp=drive_link",
@@ -79,6 +80,36 @@
         "classe": "3e",
         "type": "synth"
       },
+	  // Structure et fonctionnement des OST
+	  {
+        "titre": "Le Pont Spaghetti",
+        "fichier": "https://drive.google.com/file/d/1uM_3P_nuu0w1CJMdha8miZvT0PeT8DrO/view?usp=drive_link",
+        "theme": "Structure et fonctionnement des OST",
+        "classe": "5e",
+        "type": "acti_groupe"
+      },
+	  {
+        "titre": "Evolution des ponts",
+        "fichier": "https://drive.google.com/file/d/1t7t9JTFuNGUbTej0eWXFMA7IN7of2v0u/view?usp=drive_link",
+        "theme": "Structure et fonctionnement des OST",
+        "classe": "5e",
+        "type": "pres"
+      },
+	  {
+        "titre": "Les types de ponts",
+        "fichier": "https://drive.google.com/file/d/1drzD8NIvnhU9rHbV3Q-bOF5uj6K8w-Do/view?usp=drive_link",
+        "theme": "Structure et fonctionnement des OST",
+        "classe": "5e",
+        "type": "cours"
+      },
+	  {
+        "titre": "Réseau internet et www",
+        "fichier": "https://drive.google.com/file/d/1SEJaC2jcjsi26b95_HvsVgHFff6zVsg9/view?usp=drive_link",
+        "theme": "Structure et fonctionnement des OST",
+        "classe": "3e",
+        "type": "cours"
+      },
+		
 	  // Synthèses OST
 	  {
         "titre": "Liste des fiches connaissances",
@@ -128,8 +159,7 @@
         "theme": "Fiches connaissances",
         "classe": "OST",
         "type": "synth"
-      },
-	
+      },		
 	  //Synthèses SFC
 	  {
         "titre": "Chaîne d'énergie",
@@ -168,6 +198,7 @@
       }
 	  
     ];
+
 
 
 
