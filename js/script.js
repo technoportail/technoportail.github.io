@@ -15,6 +15,7 @@
 			case "acti_num": return '<i class="fas fa-desktop"></i>';
 			case "devoir": return '<i class="fas fa-house"></i>';
 			case "pres": return '<i class="fas fa-chalkboard-teacher"></i>';
+			case "docu": return '<i class="fas fa-file-video-o"></i>';
             default: return '<i class="fas fa-file-alt"></i>';
         }
     }
@@ -148,4 +149,5 @@
                 acc.querySelector('i').style.transform = '';
             }
         });
+
     });
