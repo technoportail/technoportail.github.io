@@ -93,7 +93,7 @@
         "fichier": "https://drive.google.com/file/d/1t7t9JTFuNGUbTej0eWXFMA7IN7of2v0u/view?usp=drive_link",
         "theme": "Structure et fonctionnement des OST",
         "classe": "5e",
-        "type": "pres"
+        "type": "docu"
       },
 	  {
         "titre": "Les types de ponts",
@@ -198,6 +198,7 @@
       }
 	  
     ];
+
 
 
 
