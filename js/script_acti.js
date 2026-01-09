@@ -101,26 +101,53 @@ function generateAccordionsByTheme(documents) {
 
     // Activer la logique accordéon
     activateAccordions();
+	colorizeAccordions();
 }
 
 // ----------------------------
 // Activer les accordéons
 // ----------------------------
 function activateAccordions() {
-    const accordions = document.querySelectorAll('.accordion');
-    accordions.forEach(acc => {
-        acc.addEventListener('click', () => {
-            acc.classList.toggle('active');
-            const panel = acc.nextElementSibling;
-            if (panel.style.maxHeight) {
-                panel.style.maxHeight = null;
-                acc.querySelector('i').style.transform = '';
-            } else {
-                panel.style.maxHeight = panel.scrollHeight + "px";
-                acc.querySelector('i').style.transform = 'rotate(90deg)';
-            }
-        });
+  const accordions = document.querySelectorAll(".accordion");
+  accordions.forEach(acc => {
+    acc.addEventListener("click", () => {
+      const panel = acc.nextElementSibling;
+      const isOpening = !panel.style.maxHeight;
+
+      // Fermer les autres
+      accordions.forEach(other => {
+        const otherPanel = other.nextElementSibling;
+        if (other !== acc) {
+          other.classList.remove("active");
+          const ico = other.querySelector("i");
+          if (ico) ico.style.transform = "";
+          otherPanel.style.maxHeight = null;
+        }
+      });
+
+      // Toggle
+      const ico = acc.querySelector("i");
+      if (isOpening) {
+        acc.classList.add("active");
+        panel.style.maxHeight = panel.scrollHeight + "px";
+        if (ico) ico.style.transform = "rotate(90deg)";
+      } else {
+        acc.classList.remove("active");
+        panel.style.maxHeight = null;
+        if (ico) ico.style.transform = "";
+      }
     });
+  });
+}
+
+// ----------------------------
+// Couleurs accordéons
+// ----------------------------
+function colorizeAccordions() {
+  const colors = ["color-1", "color-2", "color-3", "color-4"];
+  document.querySelectorAll(".accordion").forEach((acc, i) => {
+    acc.classList.add(colors[i % colors.length]);
+  });
 }
 
 // ----------------------------
