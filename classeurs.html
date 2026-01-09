@@ -17,6 +17,7 @@
 
 	<!-- style.css -->
 	<link rel="stylesheet" href="style.css"/>
+	<link rel="stylesheet" href="color_pattern_classeur.css"/>
 </head>
 
 <body style="--cover-image: url('img/headers/circuit_jpg.jpg'); --accent-rgb: 63, 81, 181;">
@@ -30,6 +31,14 @@
             <input type="text" id="searchInput" placeholder="Rechercher..." />
             <i class="fas fa-search search-icon"></i>
         </div>
+		
+		<!-- Filtres classe -->
+		<div class="filter-bar" id="classFilterBar">
+		  <button class="filter-btn active" data-classe="tout">Tout</button>
+		  <button class="filter-btn" data-classe="5e">5e</button>
+		  <button class="filter-btn" data-classe="4e">4e</button>
+		  <button class="filter-btn" data-classe="3e">3e</button>
+		</div>
 
         <!-- Container qui recevra les accordéons -->
         <div id="accordionContainer"></div>
