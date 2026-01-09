@@ -109,14 +109,14 @@
         .accordion.active i {
             transform: rotate(90deg);
         }
-
+		
         .panel {
             max-height: 0;
             overflow: hidden;
             transition: max-height 0.4s ease;
             background: transparent;
         }
-
+		
         .doc-item {
             display: flex;
             justify-content: space-between;
@@ -338,4 +338,60 @@
 		.card-link:active .activity-card {
 			box-shadow: inset 7px 7px 15px rgba(0,0,0,0.1),
 						inset -7px -7px 20px rgba(255,255,255,0.7);
+		}
+		
+		/* Barre de filtres */
+		.filter-bar{
+		  display:flex;
+		  gap:10px;
+		  margin: -10px 0 22px; /* remonte un peu sous la search bar */
+		  flex-wrap: wrap;
+		}
+
+		.filter-btn{
+		  border:none;
+		  padding:8px 14px;
+		  border-radius: 999px;
+		  background:#ecf0f3;
+		  box-shadow: 6px 6px 12px rgba(0,0,0,0.08),
+					  -6px -6px 12px rgba(255,255,255,0.7);
+		  color:#555;
+		  font-weight:500;
+		  cursor:pointer;
+		  transition: transform 0.15s ease, box-shadow 0.2s ease;
+		}
+
+		.filter-btn:active{
+		  box-shadow: inset 6px 6px 12px rgba(0,0,0,0.08),
+					  inset -6px -6px 12px rgba(255,255,255,0.7);
+		  transform: scale(0.98);
+		}
+
+		.filter-btn.active{
+		  background:#e3e8ec;
+		  box-shadow: inset 6px 6px 12px rgba(0,0,0,0.08),
+					  inset -6px -6px 12px rgba(255,255,255,0.7);
+		}
+
+		/* Groupes de chapitres */
+		.chapter-group{
+		  margin-bottom: 10px;
+		}
+
+		/* Headers chapitre : masqués par défaut (mode "Tout") */
+		.chapter-header{
+		  display:none;
+		  margin: 15px 5px 8px;
+		}
+
+		.chapter-title{
+		  font-weight:600;
+		  font-size:0.95em;
+		  color: rgb(var(--accent-rgb));
+		}
+
+		.chapter-subtitle{
+		  font-size:0.75em;
+		  color:#777;
+		  margin-top:2px;
 		}
