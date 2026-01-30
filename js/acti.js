@@ -43,6 +43,14 @@
         "type": "acti_num"
       },
 	  {
+        "titre": "Les types d'IA et leurs utilisations ",
+        "fichier": "https://docs.google.com/forms/d/e/1FAIpQLSf2hJ4IQbGL3MXMnuaykEHaaKR45hO1JpKR1Wc6e6j2P3bKlA/viewform?usp=dialog",
+		"im": "img/vignettes_acti/acti_ia.png",
+        "theme": "Intelligence artificielle",
+        "classe": "5e",
+        "type": "acti_num"
+      },
+	  {
         "titre": "Internet, la pollution cachée",
         "fichier": "https://docs.google.com/forms/d/e/1FAIpQLSfuepTOXMgCGpXCU97Y7pUaGZHUV7OBQuuTMXU6esxnzf7efw/viewform?usp=dialog",
 		"im": "img/vignettes_acti/internet_impact.jpg",
@@ -67,3 +75,4 @@
         "type": "acti_num"
       }
 ];
+
