@@ -73,6 +73,15 @@
         "theme": "Réseaux Informatiques",
         "classe": "3e",
         "type": "acti_num"
+      },
+	  {
+        "titre": "Modélisation d'une clé de 10",
+        "fichier": "https://drive.google.com/file/d/1QPkx-CYr2NWalf7HnkHHo0NIqD9ky8p5/view?usp=drive_link",
+		"im": "img/vignettes_acti/tinkercad.jpg",
+        "theme": "Modélisation 3D",
+        "classe": "3e",
+        "type": "acti_num"
       }
 ];
+
 
