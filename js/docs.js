@@ -126,7 +126,7 @@
       },
 	  {
         "titre": "Les Composants d'Internet",
-        "fichier": "",
+        "fichier": "https://drive.google.com/file/d/1L4KjCB97pkyh1pnrglYS2rGQvu9DOKSQ/view?usp=drive_link",
         "theme": "Structure et fonctionnement des OST",
         "classe": "3e",
 		"chapitre": "Chapitre 2\nRéseaux Informatiques",
@@ -142,7 +142,7 @@
       },
 	  {
         "titre": "L'Adresse IP",
-        "fichier": "",
+        "fichier": "https://drive.google.com/file/d/1pyO5Zjxtbr1qlryGnM2i_sHYeJ4-HwlE/view?usp=drive_link",
         "theme": "Structure et fonctionnement des OST",
         "classe": "3e",
 		"chapitre": "Chapitre 2\nRéseaux Informatiques",
@@ -155,6 +155,22 @@
         "classe": "3e",
 		"chapitre": "Chapitre 3\nInformatique Embarquée",
         "type": "acti_num"
+      },
+	  {
+        "titre": "Les bases en programmation",
+        "fichier": "https://drive.google.com/file/d/1HpkBTl4JycDl1g0mDpyq8a5Q8PQKIIJe/view?usp=drive_link",
+        "theme": "Structure et fonctionnement des OST",
+        "classe": "3e",
+		"chapitre": "Chapitre 3\nInformatique Embarquée",
+        "type": "cours"
+      },
+	  {
+        "titre": "Le panneau émoticône",
+        "fichier": "https://drive.google.com/file/d/1Wcl94UFWTl9WSgAsYEqMTdKnxvHsw5-b/view?usp=drive_link",
+        "theme": "Structure et fonctionnement des OST",
+        "classe": "3e",
+		"chapitre": "Chapitre 3\nInformatique Embarquée",
+        "type": "acti_groupe"
       },
 		
 	  // Synthèses OST
@@ -257,6 +273,7 @@
       }
 	  
     ];
+
 
 
 
