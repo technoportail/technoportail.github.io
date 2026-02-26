@@ -81,7 +81,16 @@
         "theme": "Modélisation 3D",
         "classe": "3e",
         "type": "acti_num"
+      },
+	  {
+        "titre": "Modélisation d'une couronne",
+        "fichier": "https://drive.google.com/file/d/1ZcuJIoj0tCj9ktXMknPHUJxqMh2NfGqL/view?usp=drive_link",
+		"im": "img/vignettes_acti/couronne.jpg",
+        "theme": "Modélisation 3D",
+        "classe": "3e",
+        "type": "acti_num"
       }
 ];
+
 
 
