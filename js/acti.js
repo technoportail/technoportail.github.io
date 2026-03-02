@@ -51,6 +51,14 @@
         "type": "acti_num"
       },
 	  {
+        "titre": "Exercices de programmation ",
+        "fichier": "https://studio.code.org/courses/courseb-2021/units/1/lessons/3/levels/2",
+		"im": "img/vignettes_acti/angrybirds_vignette.jpg",
+        "theme": "Intelligence artificielle",
+        "classe": "5e",
+        "type": "acti_num"
+      },
+	  {
         "titre": "Internet, la pollution cachée",
         "fichier": "https://docs.google.com/forms/d/e/1FAIpQLSfuepTOXMgCGpXCU97Y7pUaGZHUV7OBQuuTMXU6esxnzf7efw/viewform?usp=dialog",
 		"im": "img/vignettes_acti/internet_impact.jpg",
@@ -91,6 +99,7 @@
         "type": "acti_num"
       }
 ];
+
 
 
 
