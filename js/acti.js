@@ -83,8 +83,24 @@
         "type": "acti_num"
       },
 	  {
+        "titre": "Modélisation d'un porte-clé",
+        "fichier": "https://drive.google.com/file/d/1t0xAW6n_uSvbgU_mP24UBh0E8rMSv-RH/view?usp=drive_link",
+		"im": "img/vignettes_acti/tinkercad.jpg",
+        "theme": "Modélisation 3D",
+        "classe": "5e",
+        "type": "acti_num"
+      },
+	  {
         "titre": "Modélisation d'une clé de 10",
         "fichier": "https://drive.google.com/file/d/1QPkx-CYr2NWalf7HnkHHo0NIqD9ky8p5/view?usp=drive_link",
+		"im": "img/vignettes_acti/tinkercad.jpg",
+        "theme": "Modélisation 3D",
+        "classe": "3e",
+        "type": "acti_num"
+      },
+	  {
+        "titre": "Modélisation d'une clé de porte",
+        "fichier": "https://drive.google.com/file/d/1X6_J7dynaN-YJNWajP96ZiknEXMwWYQf/view?usp=drive_link",
 		"im": "img/vignettes_acti/tinkercad.jpg",
         "theme": "Modélisation 3D",
         "classe": "3e",
@@ -99,6 +115,7 @@
         "type": "acti_num"
       }
 ];
+
 
 
 
