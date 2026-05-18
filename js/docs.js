@@ -125,6 +125,30 @@
         "type": "acti_groupe"
       },
 	  {
+        "titre": "Programmes et algorithmes",
+        "fichier": "https://drive.google.com/file/d/1auJvhoegnAehH5rEaxCcBCgnMzFQpoBT/view?usp=drive_link",
+        "theme": "Structure et fonctionnement des OST",
+        "classe": "5e",
+		"chapitre": "Chapitre 4\nProgrammation",
+        "type": "cours"
+      },
+	  {
+        "titre": "Les conditions en programmation",
+        "fichier": "https://drive.google.com/file/d/1Oyf4Q-axuhMNTU57TXjpZpubIWZslsa6/view?usp=drive_link",
+        "theme": "Structure et fonctionnement des OST",
+        "classe": "5e",
+		"chapitre": "Chapitre 4\nProgrammation",
+        "type": "cours"
+      },
+	  {
+        "titre": "Algorigrammes",
+        "fichier": "https://drive.google.com/file/d/1EeHr6JDQSlw1QYo0RARSCIx4HlTcz1rX/view?usp=drive_link",
+        "theme": "Structure et fonctionnement des OST",
+        "classe": "5e",
+		"chapitre": "Chapitre 4\nProgrammation",
+        "type": "acti_ecrite"
+      },
+	  {
         "titre": "Les Composants d'Internet",
         "fichier": "https://drive.google.com/file/d/1L4KjCB97pkyh1pnrglYS2rGQvu9DOKSQ/view?usp=drive_link",
         "theme": "Structure et fonctionnement des OST",
@@ -171,6 +195,31 @@
         "classe": "3e",
 		"chapitre": "Chapitre 3\nInformatique Embarquée",
         "type": "acti_groupe"
+      },
+	  // Concevoir et réaliser des OST
+	  {
+        "titre": "Modélisation de trophées",
+        "fichier": "https://drive.google.com/file/d/1en7XDEvqXjW3osHwnTQT9qGD0rEaTI4R/view?usp=drive_link",
+        "theme": "Concevoir et réaliser des OST",
+        "classe": "5e",
+		"chapitre": "Chapitre 5\nModélisation 3D",
+        "type": "acti_groupe"
+      },
+	  {
+        "titre": "Support Microbit",
+        "fichier": "https://drive.google.com/file/d/1SSjQoOhqji9-rRIbfumQ3fQtxl43TE0t/view?usp=drive_link",
+        "theme": "Concevoir et réaliser des OST",
+        "classe": "3e",
+		"chapitre": "Chapitre 4\nModélisation 3D",
+        "type": "acti_groupe"
+      },
+	  {
+        "titre": "Créer une page web en partant de zéro",
+        "fichier": "https://drive.google.com/file/d/1YL51_fbLiX9tBROAwYVAs2XrBm9zk9H-/view?usp=drive_link",
+        "theme": "Concevoir et réaliser des OST",
+        "classe": "3e",
+		"chapitre": "Chapitre 5\nInterfaces utilisateurs",
+        "type": "acti_num"
       },
 		
 	  // Synthèses OST
