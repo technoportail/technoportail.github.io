@@ -206,6 +206,14 @@
         "type": "acti_groupe"
       },
 	  {
+        "titre": "Modélisation d’une maison sur SketchUp",
+        "fichier": "https://drive.google.com/file/d/1N77kLAXXmsI7aIP0wlpdsHAfl9VT0qha/view?usp=drive_link",
+        "theme": "Concevoir et réaliser des OST",
+        "classe": "5e",
+		"chapitre": "Chapitre 5\nModélisation 3D",
+        "type": "acti_indiv"
+      },
+	  {
         "titre": "Support Microbit",
         "fichier": "https://drive.google.com/file/d/1SSjQoOhqji9-rRIbfumQ3fQtxl43TE0t/view?usp=drive_link",
         "theme": "Concevoir et réaliser des OST",
