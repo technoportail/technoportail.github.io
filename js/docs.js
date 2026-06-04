@@ -229,6 +229,14 @@
 		"chapitre": "Chapitre 5\nInterfaces utilisateurs",
         "type": "acti_num"
       },
+	  {
+        "titre": "Créer un site avec plusieurs pages web",
+        "fichier": "https://drive.google.com/file/d/1UHqb6jETWr_QKFAaHCtWMugtOZD5dLbF/view?usp=drive_link",
+        "theme": "Concevoir et réaliser des OST",
+        "classe": "3e",
+		"chapitre": "Chapitre 5\nInterfaces utilisateurs",
+        "type": "acti_num"
+      },
 		
 	  // Synthèses OST
 	  {
