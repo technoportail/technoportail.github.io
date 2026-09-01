@@ -4,6 +4,22 @@
     const documents = [
 	// Découvrir et analyser les OST
       {
+        "titre": "L’ordinateur et les espaces de travail",
+        "fichier": "https://drive.google.com/file/d/1RW4HMN6uCaw29a07z94uuH8c1t8vNwhE/view?usp=drive_link",
+        "theme": "Découvrir et analyser les OST",
+        "classe": "5e",
+		"chapitre": "Chapitre 0\nInitiation au numérique",
+        "type": "cours"
+      },
+	  {
+        "titre": "Organiser son espace de stockage",
+        "fichier": "",
+        "theme": "Découvrir et analyser les OST",
+        "classe": "5e",
+		"chapitre": "Chapitre 0\nInitiation au numérique",
+        "type": "cours"
+      },
+	  {
         "titre": "Boîte Mystère",
         "fichier": "https://drive.google.com/file/d/1hW1JpRpdBtQmmsE8N073wD8xwXGUvqHu/view?usp=drive_link",
         "theme": "Découvrir et analyser les OST",
