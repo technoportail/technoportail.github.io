@@ -13,11 +13,19 @@
       },
 	  {
         "titre": "Organiser son espace de stockage",
-        "fichier": "",
+        "fichier": "https://drive.google.com/file/d/14CEL2zyaFNCzWh3QFSAGGA9o2q10z2iq/view?usp=drive_link",
         "theme": "Découvrir et analyser les OST",
         "classe": "5e",
 		"chapitre": "Chapitre 0\nInitiation au numérique",
         "type": "cours"
+      },
+	  {
+        "titre": "Escape Game (Indice 4)",
+        "fichier": "https://drive.google.com/file/d/1iqphkJMdAEIwqaqb6rBWLvx4HBe00jmp/view?usp=drive_link",
+        "theme": "Découvrir et analyser les OST",
+        "classe": "5e",
+		"chapitre": "Chapitre 0\nInitiation au numérique",
+        "type": "acti_groupe"
       },
 	  {
         "titre": "Boîte Mystère",
