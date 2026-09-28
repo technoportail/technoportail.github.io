@@ -3,6 +3,14 @@
     // ----------------------------
     const documents = [
       {
+        "titre": "L'ordinateur, les espaces de stockage",
+        "fichier": "https://docs.google.com/forms/d/e/1FAIpQLScnbvldfkInZbEsqWe_YDgjfHk-epkcPDBzJul1edZkRrNzrQ/viewform?usp=dialog",
+		"im": "img/vignettes_acti/acti_composant_ordi.jpg",
+        "theme": "Initiation au numérique",
+        "classe": "5e",
+        "type": "acti_num"
+      },
+	  {
         "titre": "Exprimer un Besoin",
         "fichier": "https://docs.google.com/forms/d/e/1FAIpQLSfaXVKoSO592ie9xqehmhJ8pxwoTTBqOO9YHjjbr5xhFScXbQ/viewform?usp=dialog",
 		"im": "img/vignettes_acti/acti_besoin.jpg",
