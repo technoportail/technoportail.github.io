@@ -1,0 +1,136 @@
+
+/* TECHNO PORTAIL — DESKTOP NAVIGATION */
+
+.tp-topbar {
+    position: relative;
+    z-index: 100;
+    width: 100%;
+    background: rgba(255,255,255,.94);
+    border-bottom: 1px solid rgba(0,0,0,.08);
+    box-shadow: 0 2px 12px rgba(0,0,0,.035);
+}
+
+.tp-topbar-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    width: 100%;
+    max-width: 1250px;
+    min-height: 76px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+.tp-brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #333;
+    font-size: 1.15rem;
+    font-weight: 600;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.tp-brand img {
+    width: 42px;
+    height: 42px;
+    object-fit: contain;
+}
+
+.tp-brand:hover {
+    color: #333;
+    text-decoration: none;
+}
+
+.tp-topbar-links {
+    display: flex;
+    align-items: stretch;
+    gap: 8px;
+    align-self: stretch;
+}
+
+.tp-topbar-links a {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding: 0 17px;
+    color: #666;
+    font-size: .9rem;
+    font-weight: 400;
+    text-decoration: none;
+    transition: color .2s, background .2s;
+}
+
+.tp-topbar-links a:hover {
+    color: #333;
+    background: rgba(0,0,0,.035);
+}
+
+.tp-topbar-links a.active {
+    color: #333;
+    font-weight: 600;
+}
+
+/* Default accent color */
+.tp-topbar {
+    --nav-accent: #ffc107;
+}
+
+/* Section-specific colors */
+body.classeurs-page .tp-topbar {
+    --nav-accent: #3f51b5;
+}
+
+body.activities-page .tp-topbar {
+    --nav-accent: #ffc107;
+}
+
+body.projets-page .tp-topbar {
+    --nav-accent: #4caf50;
+}
+
+/* Active navigation underline */
+.tp-topbar-links a.active::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 17px;
+    right: 17px;
+    height: 3px;
+    border-radius: 3px 3px 0 0;
+    background: var(--nav-accent);
+}
+
+.tp-topbar-links i {
+    font-size: 1rem;
+}
+
+/* Compact tablet layout */
+@media (min-width: 601px) and (max-width: 800px) {
+    .tp-topbar-inner {
+        padding: 0 16px;
+    }
+
+    .tp-topbar-links {
+        gap: 0;
+    }
+
+    .tp-topbar-links a {
+        padding: 0 11px;
+        font-size: .82rem;
+    }
+
+    .tp-brand {
+        font-size: 1rem;
+    }
+}
+
+/* Mobile: use existing bottom navigation */
+@media (max-width: 600px) {
+    .tp-topbar {
+        display: none !important;
+    }
+}

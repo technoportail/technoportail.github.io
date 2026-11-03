@@ -5,6 +5,7 @@
 // - Recherche fonctionne dans la vue courante
 // =====================================================
 
+/*OBSOLETE*/
 
 // ----------------------------
 // Helper pour icône selon type

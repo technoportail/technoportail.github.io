@@ -8,7 +8,7 @@
         "fichier": "https://drive.google.com/file/d/1RW4HMN6uCaw29a07z94uuH8c1t8vNwhE/view?usp=drive_link",
         "theme": "Découvrir et analyser les OST",
         "classe": "5e",
-		"chapitre": "Chapitre 0\nInitiation au numérique",
+		"chapitre": "Chapitre 1\nInitiation au numérique",
         "type": "cours"
       },
 	  {
@@ -16,7 +16,7 @@
         "fichier": "https://drive.google.com/file/d/14CEL2zyaFNCzWh3QFSAGGA9o2q10z2iq/view?usp=drive_link",
         "theme": "Découvrir et analyser les OST",
         "classe": "5e",
-		"chapitre": "Chapitre 0\nInitiation au numérique",
+		"chapitre": "Chapitre 1\nInitiation au numérique",
         "type": "cours"
       },
 	  {
@@ -24,7 +24,7 @@
         "fichier": "https://drive.google.com/file/d/1iqphkJMdAEIwqaqb6rBWLvx4HBe00jmp/view?usp=drive_link",
         "theme": "Découvrir et analyser les OST",
         "classe": "5e",
-		"chapitre": "Chapitre 0\nInitiation au numérique",
+		"chapitre": "Chapitre 1\nInitiation au numérique",
         "type": "acti_groupe"
       },
 	  {
@@ -32,7 +32,7 @@
         "fichier": "https://drive.google.com/file/d/1hW1JpRpdBtQmmsE8N073wD8xwXGUvqHu/view?usp=drive_link",
         "theme": "Découvrir et analyser les OST",
         "classe": "5e",
-		"chapitre": "Chapitre 1\nEnvironnement des OST",
+		"chapitre": "Chapitre 2\nEnvironnement des OST",
         "type": "acti_groupe"
       },
       {
@@ -40,7 +40,7 @@
         "fichier": "https://drive.google.com/file/d/1tiBTOXwjE96TERRfUZTthT6C-nKBV-QP/view?usp=drive_link",
         "theme": "Découvrir et analyser les OST",
         "classe": "5e",
-		"chapitre": "Chapitre 1\nEnvironnement des OST",
+		"chapitre": "Chapitre 2\nEnvironnement des OST",
         "type": "cours"
       },
 		{
@@ -48,7 +48,7 @@
         "fichier": "https://drive.google.com/file/d/1rJxH25fdjdWuQhlGoRbXPui__n_9GkQw/view?usp=drive_link",
         "theme": "Découvrir et analyser les OST",
         "classe": "5e",
-		"chapitre": "Chapitre 1\nEnvironnement des OST",
+		"chapitre": "Chapitre 2\nEnvironnement des OST",
         "type": "acti_groupe"
       },
 		{
@@ -56,7 +56,7 @@
         "fichier": "https://drive.google.com/file/d/1j5SFiO9xKMlob4E2AcHD25ub_rhllbSS/view?usp=drive_link",
         "theme": "Découvrir et analyser les OST",
         "classe": "5e",
-		"chapitre": "Chapitre 1\nEnvironnement des OST",
+		"chapitre": "Chapitre 2\nEnvironnement des OST",
         "type": "synth"
       },
 		{
@@ -64,7 +64,7 @@
         "fichier": "https://drive.google.com/file/d/1yeZk6297KQ1f45FJVkZxtSA9nK49j2Y7/view?usp=drive_link",
         "theme": "Découvrir et analyser les OST",
         "classe": "5e",
-		"chapitre": "Chapitre 1\nEnvironnement des OST",
+		"chapitre": "Chapitre 2\nEnvironnement des OST",
         "type": "acti_ecrite"
       },
 	  {
@@ -72,7 +72,7 @@
         "fichier": "https://drive.google.com/file/d/11U9stlaM3z_iOFLss5w-fyu5I4141JX_/view?usp=drive_link",
         "theme": "Découvrir et analyser les OST",
         "classe": "5e",
-		"chapitre": "Chapitre 1\nEnvironnement des OST",
+		"chapitre": "Chapitre 2\nEnvironnement des OST",
         "type": "cours"
       },
 	  {
@@ -121,7 +121,7 @@
         "fichier": "https://drive.google.com/file/d/1uM_3P_nuu0w1CJMdha8miZvT0PeT8DrO/view?usp=drive_link",
         "theme": "Structure et fonctionnement des OST",
         "classe": "5e",
-		"chapitre": "Chapitre 2\nStructure des ponts",
+		"chapitre": "Chapitre 3\nStructure des ponts",
         "type": "acti_groupe"
       },
 	  {
@@ -129,7 +129,7 @@
         "fichier": "https://drive.google.com/file/d/1t7t9JTFuNGUbTej0eWXFMA7IN7of2v0u/view?usp=drive_link",
         "theme": "Structure et fonctionnement des OST",
         "classe": "5e",
-		"chapitre": "Chapitre 2\nStructure des ponts",
+		"chapitre": "Chapitre 3\nStructure des ponts",
         "type": "pres"
       },
 	  {
@@ -137,7 +137,7 @@
         "fichier": "https://drive.google.com/file/d/1drzD8NIvnhU9rHbV3Q-bOF5uj6K8w-Do/view?usp=drive_link",
         "theme": "Structure et fonctionnement des OST",
         "classe": "5e",
-		"chapitre": "Chapitre 2\nStructure des ponts",
+		"chapitre": "Chapitre 3\nStructure des ponts",
         "type": "cours"
       },
 	  {
@@ -145,7 +145,7 @@
         "fichier": "https://drive.google.com/file/d/11IFNx9AJDzc-9tZq1DWbVX-qPSNxQf3F/view?usp=drive_link",
         "theme": "Structure et fonctionnement des OST",
         "classe": "5e",
-		"chapitre": "Chapitre 3\nCybersécurité et IA",
+		"chapitre": "Chapitre 4\nIA Programmée ou générative",
         "type": "acti_groupe"
       },
 	  {
@@ -153,7 +153,7 @@
         "fichier": "https://drive.google.com/file/d/1auJvhoegnAehH5rEaxCcBCgnMzFQpoBT/view?usp=drive_link",
         "theme": "Structure et fonctionnement des OST",
         "classe": "5e",
-		"chapitre": "Chapitre 4\nProgrammation",
+		"chapitre": "Chapitre 4\nIA Programmée ou générative",
         "type": "cours"
       },
 	  {
@@ -161,7 +161,7 @@
         "fichier": "https://drive.google.com/file/d/1Oyf4Q-axuhMNTU57TXjpZpubIWZslsa6/view?usp=drive_link",
         "theme": "Structure et fonctionnement des OST",
         "classe": "5e",
-		"chapitre": "Chapitre 4\nProgrammation",
+		"chapitre": "Chapitre 4\nIA Programmée ou générative",
         "type": "cours"
       },
 	  {
@@ -169,7 +169,7 @@
         "fichier": "https://drive.google.com/file/d/1EeHr6JDQSlw1QYo0RARSCIx4HlTcz1rX/view?usp=drive_link",
         "theme": "Structure et fonctionnement des OST",
         "classe": "5e",
-		"chapitre": "Chapitre 4\nProgrammation",
+		"chapitre": "Chapitre 4\nIA Programmée ou générative",
         "type": "acti_ecrite"
       },
 	  {

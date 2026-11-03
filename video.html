@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="img/technoportail3.ico">
+    <title>Le cours en vidéo — Technoportail</title>
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="navigation.css">
+    <link rel="stylesheet" href="video.css">
+</head>
+
+<body class="video-page" style="--cover-image:url('img/headers/circuit_jpg.jpg'); --accent-rgb:255,0,51;">
+
+    <!-- TOPBAR -->
+    <header class="tp-topbar w3-hide-small">
+        <nav class="tp-topbar-inner" aria-label="Navigation principale">
+            <a href="index.html" class="tp-brand">
+                <img src="img/technoportail3.ico" alt="">
+                <span>Technoportail</span>
+            </a>
+            <div class="tp-topbar-links">
+                <a href="classeurs.html"><i class="fas fa-book-atlas"></i> Classeur</a>
+                <a href="activites.html"><i class="fas fa-desktop"></i> Activités</a>
+                <a href="projets.html"><i class="fas fa-shapes"></i> Projets</a>
+                <a href="video.html" class="active" aria-current="page">
+                    <i class="fab fa-youtube"></i> Vidéos
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="video-content">
+
+        <header class="video-header w3-center">
+            <h1>Le cours en vidéo</h1>
+            <p>Quelques notions développées au format vidéo.</p>
+            <a class="video-channel-link" href="https://www.youtube.com/@Technoportail" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-youtube"></i>
+                Voir la chaîne Technoportail
+                <i class="fas fa-arrow-up-right-from-square"></i>
+            </a>
+        </header>
+
+        <nav class="video-filters" id="videoFilters" aria-label="Catégories de vidéos"></nav>
+
+        <div class="video-heading">
+            <h2 id="videoCategoryTitle">Toutes les vidéos</h2>
+            <span id="videoCount"></span>
+        </div>
+
+        <section class="video-grid" id="videoGrid" aria-label="Galerie des vidéos"></section>
+
+        <p class="video-empty" id="videoEmpty" hidden>
+            Aucune vidéo dans cette catégorie pour le moment.
+        </p>
+
+    </main>
+
+    <!-- VIDEO PLAYER MODAL -->
+    <div class="video-modal" id="videoModal" role="dialog" aria-modal="true" aria-labelledby="videoModalTitle" hidden>
+        <div class="video-modal-backdrop" data-close="true"></div>
+        <div class="video-modal-dialog">
+            <button type="button" class="video-modal-close" id="videoModalClose" aria-label="Fermer la vidéo">
+                <i class="fas fa-xmark"></i>
+            </button>
+            <div class="video-player">
+                <iframe id="videoPlayer" title="Lecteur vidéo YouTube"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen></iframe>
+            </div>
+            <div class="video-modal-content">
+                <span class="video-modal-category" id="videoModalCategory"></span>
+                <h2 id="videoModalTitle"></h2>
+                <p id="videoModalDescription"></p>
+                <a id="videoYoutubeLink" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-youtube"></i> Regarder sur YouTube
+                    <i class="fas fa-arrow-up-right-from-square"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- BOTTOM NAV MOBILE -->
+    <nav class="home-bottom-nav w3-bar w3-white w3-bottom w3-hide-medium w3-hide-large" aria-label="Navigation mobile">
+        <a href="index.html" class="w3-bar-item w3-button w3-center home-nav-item">
+            <i class="fas fa-home"></i><span>Accueil</span>
+        </a>
+        <a href="classeurs.html" class="w3-bar-item w3-button w3-center home-nav-item">
+            <i class="fas fa-book-atlas"></i><span>Classeur</span>
+        </a>
+        <a href="activites.html" class="w3-bar-item w3-button w3-center home-nav-item">
+            <i class="fas fa-desktop"></i><span>Activités</span>
+        </a>
+        <a href="projets.html" class="w3-bar-item w3-button w3-center home-nav-item">
+            <i class="fas fa-shapes"></i><span>Projets</span>
+        </a>
+        <a href="video.html" class="w3-bar-item w3-button w3-center home-nav-item home-nav-active" aria-current="page">
+            <i class="fab fa-youtube"></i><span>Vidéos</span>
+        </a>
+    </nav>
+
+    <script src="js/videos.js"></script>
+    <script src="js/video-layout.js"></script>
+</body>
+</html>

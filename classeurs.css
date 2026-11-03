@@ -1,0 +1,493 @@
+
+/* ============================================================
+   TECHNO PORTAIL — CLASSEUR
+   ============================================================ */
+
+body.classeurs-page {
+    display: block;
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-family: "Poppins", sans-serif;
+    background-size: auto, 100% auto;
+    background-position: top left, center top;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+.classeurs-content {
+    width: 100%;
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 45px 24px 70px;
+}
+
+/* HEADER */
+
+.classeurs-header {
+    max-width: 700px;
+    margin: 0 auto 30px;
+}
+
+.classeurs-header h1 {
+    margin: 0 0 12px;
+    color: #444;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.classeurs-header p {
+    margin: 0;
+    color: #666;
+    font-size: .95rem;
+    font-weight: 300;
+    line-height: 1.6;
+}
+
+/* SEARCH */
+
+.classeurs-search {
+    position: relative;
+    max-width: 750px;
+    margin: 0 auto 20px;
+}
+
+.classeurs-search input {
+    width: 100%;
+    padding: 13px 42px 13px 16px;
+    border: 1px solid #e1e1e1;
+    border-radius: 14px;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,.04);
+    font: inherit;
+    font-size: .9rem;
+}
+
+.classeurs-search input:focus {
+    background: #fff;
+    border-color: #3f51b5;
+    outline: none;
+}
+
+.classeurs-search .search-icon {
+    position: absolute;
+    top: 50%;
+    right: 16px;
+    transform: translateY(-50%);
+    color: #999;
+    pointer-events: none;
+}
+
+/* CLASS FILTERS */
+
+.classeurs-class-filters {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 32px;
+}
+
+.classeurs-class-btn {
+    padding: 8px 19px;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    background: #fff;
+    color: #666;
+    font: inherit;
+    font-size: .85rem;
+    cursor: pointer;
+    transition: background .2s, border-color .2s;
+}
+
+.classeurs-class-btn:hover {
+    background: #f5f5f5;
+}
+
+.classeurs-class-btn.active {
+    background: #3f51b5;
+    border-color: #3f51b5;
+    color: #fff;
+    font-weight: 600;
+}
+
+/* LAYOUT */
+
+.classeurs-layout {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+/* DESKTOP SIDEBAR */
+
+.classeurs-sidebar-inner {
+    position: sticky;
+    top: 20px;
+    padding: 20px 12px;
+    border: 1px solid rgba(0,0,0,.07);
+    border-radius: 16px;
+    background: rgba(255,255,255,.9);
+    box-shadow: 0 3px 12px rgba(0,0,0,.05);
+}
+
+.classeurs-sidebar h2 {
+    margin: 0 12px 15px;
+    color: #444;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.classeurs-chapter-btn {
+    display: block;
+    width: 100%;
+    margin-bottom: 4px;
+    padding: 12px;
+    border: 0;
+    border-radius: 10px;
+    background: transparent;
+    color: #666;
+    text-align: left;
+    font: inherit;
+    font-size: .85rem;
+    white-space: pre-line;
+    cursor: pointer;
+    transition: background .2s;
+}
+
+.classeurs-chapter-btn:hover {
+    background: #f0f1f3;
+}
+
+.classeurs-chapter-btn.active {
+    background: rgba(63,81,181,.13);
+    color: #303f9f;
+    font-weight: 600;
+}
+
+/* DESKTOP DOCUMENTS */
+
+.classeurs-results-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    margin-bottom: 18px;
+}
+
+.classeurs-results-heading h2 {
+    margin: 0;
+    color: #444;
+    font-size: 1.2rem;
+    font-weight: 600;
+    white-space: pre-line;
+}
+
+#resultsCount {
+    color: #888;
+    font-size: .8rem;
+    white-space: nowrap;
+}
+
+.classeurs-documents {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 10px;
+}
+
+/* DOCUMENT CARD */
+
+.classeurs-page .document-card {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    min-width: 0;
+    min-height: 88px;
+    padding: 16px;
+    border: 1px solid rgba(0,0,0,.07);
+    border-radius: 14px;
+    background: #fff;
+    color: #444;
+    text-decoration: none;
+    box-shadow: 0 3px 10px rgba(0,0,0,.045);
+    transition: border-color .2s, box-shadow .2s, transform .2s;
+}
+
+.classeurs-page .document-card:hover {
+    border-color: rgba(63,81,181,.3);
+    box-shadow: 0 6px 18px rgba(0,0,0,.09);
+    color: #333;
+    text-decoration: none;
+}
+
+.document-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 46px;
+    width: 46px;
+    height: 46px;
+    border-radius: 12px;
+    background: rgba(63,81,181,.1);
+    color: #3f51b5;
+    font-size: 1.25rem;
+}
+
+.document-content {
+    flex: 1;
+    min-width: 0;
+}
+
+.document-title {
+    display: block;
+    color: #444;
+    font-size: .87rem;
+    font-weight: 500;
+    line-height: 1.45;
+}
+
+.document-meta {
+    display: block;
+    margin-top: 5px;
+    color: #888;
+    font-size: .72rem;
+}
+
+.document-arrow {
+    flex-shrink: 0;
+    color: #aaa;
+    font-size: .8rem;
+}
+
+.document-card.is-unavailable {
+    opacity: .55;
+    cursor: default;
+}
+
+/* EMPTY STATE */
+
+.classeurs-empty {
+    padding: 30px 10px;
+    color: #888;
+    text-align: center;
+}
+
+.classeurs-empty[hidden] {
+    display: none;
+}
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+
+    .classeurs-content {
+        padding: 25px 8px 105px;
+    }
+
+    .classeurs-header {
+        margin-bottom: 25px;
+    }
+
+    .classeurs-header h1 {
+        font-size: 1.65rem;
+    }
+
+    .classeurs-header p {
+        font-size: .82rem;
+        line-height: 1.5;
+    }
+
+    .classeurs-class-filters {
+        gap: 8px;
+        margin-bottom: 25px;
+    }
+
+    .classeurs-class-btn {
+        padding: 7px 16px;
+        font-size: .8rem;
+    }
+
+    /* ACCORDIONS */
+
+    .classeurs-chapter-group {
+        margin-bottom: 16px;
+    }
+
+    .classeurs-page .accordion {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        margin: 0;
+        padding: 16px 18px;
+        border: 0;
+        border-radius: 16px;
+        background: #fff;
+        box-shadow:
+            5px 5px 12px rgba(0,0,0,.09),
+            -5px -5px 14px rgba(255,255,255,.75);
+        color: #555;
+        font: inherit;
+        font-size: .9rem;
+        font-weight: 500;
+        text-align: left;
+        cursor: pointer;
+    }
+
+    .classeurs-page .accordion:hover,
+    .classeurs-page .accordion.active {
+        background: #e3e8ec;
+    }
+
+    .classeurs-page .accordion-label {
+        white-space: pre-line;
+        line-height: 1.5;
+    }
+
+    .classeurs-page .accordion i {
+        margin-left: 12px;
+        color: #888;
+        font-size: .8rem;
+        transition: transform .25s;
+    }
+
+    .classeurs-page .accordion.active i {
+        transform: rotate(90deg);
+    }
+
+    .classeurs-page .panel {
+        display: block;
+        max-height: none;
+        overflow: visible;
+        padding: 0;
+        background: transparent;
+        transition: none;
+    }
+
+    .classeurs-page .panel[hidden] {
+        display: none;
+    }
+
+    .classeurs-mobile-documents {
+        display: grid;
+        grid-template-columns: minmax(0,1fr);
+        gap: 12px;
+        padding: 18px 3px 5px;
+    }
+
+    .classeurs-page .document-card {
+        min-height: 80px;
+        padding: 13px;
+    }
+
+    /* MOBILE BOTTOM NAV */
+
+    .classeurs-page .home-bottom-nav {
+        z-index: 1000;
+        display: flex;
+        width: 100%;
+        height: calc(72px + env(safe-area-inset-bottom));
+        padding-bottom: env(safe-area-inset-bottom);
+        border-top: 1px solid #d8dadd;
+        box-shadow: 0 -3px 14px rgba(0,0,0,.06);
+    }
+
+    .classeurs-page .home-nav-item {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 25%;
+        height: 72px;
+        padding: 8px 2px !important;
+        color: #777;
+        text-decoration: none;
+    }
+
+    .classeurs-page .home-nav-item:not(:last-child) {
+        border-right: 1px solid #e2e3e5;
+    }
+
+    .classeurs-page .home-nav-item i {
+        display: block;
+        margin-bottom: 6px;
+        font-size: 1.3rem;
+        line-height: 1;
+    }
+
+    .classeurs-page .home-nav-item span {
+        display: block;
+        font-size: .7rem;
+        font-weight: 400;
+        line-height: 1;
+    }
+
+    .classeurs-page .home-nav-active {
+        color: #333 !important;
+        font-weight: 600;
+    }
+
+    .classeurs-page .home-nav-active::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 25%;
+        width: 50%;
+        height: 3px;
+        border-radius: 0 0 3px 3px;
+        background: #3f51b5;
+    }
+}
+
+/* SMALLER SCREENS */
+
+@media (max-width: 380px) {
+    .classeurs-page .accordion {
+        font-size: .83rem;
+    }
+
+    .document-title {
+        font-size: .82rem;
+    }
+}
+
+/* DESKTOP HOVER ONLY */
+
+@media (hover: hover) and (pointer: fine) {
+    .classeurs-page .document-card:not(.is-unavailable):hover {
+        transform: translateY(-3px);
+    }
+}
+
+@media (hover: none), (pointer: coarse) {
+    .classeurs-page .document-card {
+        transform: none !important;
+    }
+}
+
+/*SLIGHTLY SMALL CARDS ON DESKTOP*/
+
+@media (min-width: 601px) {
+    .classeurs-page .document-card {
+        min-height: 72px;
+        padding: 12px 16px;
+    }
+
+    .classeurs-page .document-icon {
+        flex-basis: 42px;
+        width: 42px;
+        height: 42px;
+    }
+}
+
+/* ACCESSIBILITY */
+
+.classeurs-page button:focus-visible,
+.classeurs-page a:focus-visible {
+    outline: 2px solid #3f51b5;
+    outline-offset: 3px;
+}

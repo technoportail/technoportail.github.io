@@ -1,61 +1,120 @@
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-	<link rel="icon" type="image/x-icon" href="img/technoportail3.ico">
-    <title>Technoportail</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="img/technoportail3.ico">
+    <title>Activités - Technoportail</title>
 
-    <!-- W3.CSS -->
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"/>
+    <!-- W3.CSS / Fonts / Icons -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
-    <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet"/>
-
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
-
-	<!-- style.css -->
-	<link rel="stylesheet" href="style.css"/>
-	<link rel="stylesheet" href="color_pattern_acti.css"/>
+    <!-- Technoportail -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="activites.css">
+	<link rel="stylesheet" href="navigation.css">
 </head>
 
-<body style="--cover-image: url('img/headers/circuit_jpg.jpg');--accent-rgb: 255, 193, 7;">
+<body class="activities-page" style="--cover-image:url('img/headers/circuit_jpg.jpg'); --accent-rgb:255,193,7;">
 
-    <div class="main-content">
+<!-- Nav -->
+<header class="tp-topbar w3-hide-small">
+    <nav class="tp-topbar-inner" aria-label="Navigation principale">
+        <a href="index.html" class="tp-brand">
+            <img src="img/technoportail3.ico" alt="">
+            <span>Technoportail</span>
+        </a>
+
+        <div class="tp-topbar-links">
+            <a href="classeurs.html">
+                <i class="fas fa-book-atlas"></i> Classeur
+            </a>
+            <a href="activites.html" class="active" aria-current="page">
+                <i class="fas fa-desktop"></i> Activités
+            </a>
+            <a href="projets.html">
+                <i class="fas fa-shapes"></i> Projets
+            </a>
+        </div>
+    </nav>
+</header>
+
+<!-- Content -->
+<main class="activities-content w3-container">
+
+    <!-- EN-TÊTE -->
+    <header class="activities-header w3-center">
         <h1>Les activités numériques</h1>
+        <p>Faire et refaire les activités numériques, pour s'exercer à la maison ou être évalué en classe.</p>
+    </header>
 
-        <!-- Search Bar -->
-        <div class="search-container">
-            <input type="text" id="searchInput" placeholder="Rechercher..." />
-            <i class="fas fa-search search-icon"></i>
-        </div>
-
-        <!-- Container qui recevra les accordéons -->
-        <div id="accordionContainer"></div>
-
-        <div class="spacer"></div>
-		
+    <!-- RECHERCHE -->
+    <div class="search-container activities-search">
+        <input type="search" id="searchInput" placeholder="Rechercher une activité..." aria-label="Rechercher une activité">
+        <i class="fas fa-search search-icon"></i>
     </div>
 
-    <!-- Bottom Navigation Bar -->
-    <div class="bottom-bar">
-        <div class="icon-btn" onclick="window.location.href='index.html'">
-            <i class="fas fa-home"></i>
-        </div>
-        <div class="icon-btn" onclick="window.location.href='classeurs.html'">
-            <i class="fas fa-book-atlas"></i>
-        </div>
-        <div class="icon-btn active">
-            <i class="fas fa-desktop"></i>
-        </div>
-        <div class="icon-btn" onclick="window.location.href='projets.html'">
-            <i class="fas fa-shapes"></i>
-        </div>
-    </div>
-		
-	<script src="js/acti.js"></script>	
-    <script src="js/script_acti.js"></script>
+    <!-- FILTRES PAR CLASSE -->
+    <div id="classFilters" class="activities-class-filters w3-center" aria-label="Filtrer par classe"></div>
 
+    <div class="w3-row-padding activities-layout">
+
+        <!-- PC / TABLETTE : CHAPITRES À GAUCHE -->
+        <aside class="w3-col l3 m4 w3-hide-small activities-sidebar">
+            <div class="activities-sidebar-inner">
+                <h2>Thèmes</h2>
+                <nav id="chapterNav" aria-label="Navigation par chapitre"></nav>
+            </div>
+        </aside>
+
+        <!-- PC / TABLETTE : DOCUMENTS À DROITE -->
+        <section class="w3-col l9 m8 w3-hide-small activities-desktop">
+            <div class="activities-results-heading">
+                <h2 id="resultsTitle">Toutes les activités</h2>
+                <span id="resultsCount"></span>
+            </div>
+            <div id="activitiesGrid" class="activities-grid"></div>
+            <p id="desktopEmpty" class="activities-empty" hidden>Aucune activité trouvée.</p>
+        </section>
+
+        <!-- TÉLÉPHONE : ACCORDÉONS -->
+        <section class="w3-col s12 w3-hide-medium w3-hide-large activities-mobile">
+            <div id="accordionContainer"></div>
+            <p id="mobileEmpty" class="activities-empty" hidden>Aucune activité trouvée.</p>
+        </section>
+
+    </div>
+</main>
+
+<!-- NAVIGATION MOBILE -->
+<nav class="home-bottom-nav w3-bar w3-white w3-bottom w3-hide-medium w3-hide-large" aria-label="Navigation principale">
+
+    <a href="index.html" class="w3-bar-item w3-button w3-center home-nav-item">
+        <i class="fas fa-home"></i>
+        <span>Accueil</span>
+    </a>
+
+    <a href="classeurs.html" class="w3-bar-item w3-button w3-center home-nav-item">
+        <i class="fas fa-book-atlas"></i>
+        <span>Classeur</span>
+    </a>
+
+    <a href="activites.html" class="w3-bar-item w3-button w3-center home-nav-item home-nav-active" aria-current="page">
+        <i class="fas fa-desktop"></i>
+        <span>Activités</span>
+    </a>
+
+    <a href="projets.html" class="w3-bar-item w3-button w3-center home-nav-item">
+        <i class="fas fa-shapes"></i>
+        <span>Projets</span>
+    </a>
+
+</nav>
+
+<script src="js/acti.js"></script>
+<script src="js/activites-layout.js"></script>
 </body>
 </html>

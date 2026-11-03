@@ -1,70 +1,107 @@
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-	<link rel="icon" type="image/x-icon" href="img/technoportail3.ico">
-    <title>Technoportail</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="img/technoportail3.ico">
+    <title>Classeur — Technoportail</title>
 
-    <!-- W3.CSS -->
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"/>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
-    <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet"/>
-
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
-
-	<!-- style.css -->
-	<link rel="stylesheet" href="style.css"/>
-	<link rel="stylesheet" href="color_pattern_classeur.css"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="navigation.css">
+    <link rel="stylesheet" href="classeurs.css">
 </head>
 
-<body style="--cover-image: url('img/headers/circuit_jpg.jpg'); --accent-rgb: 63, 81, 181;">
+<body class="classeurs-page" style="--cover-image:url('img/headers/circuit_jpg.jpg'); --accent-rgb:63,81,181;">
 
-    <div class="main-content">
-		
-		<h1>Le classeur du professeur</h1>
-		
-        <!-- Search Bar -->
-        <div class="search-container">
-            <input type="text" id="searchInput" placeholder="Rechercher..." />
+    <!-- NAVIGATION DESKTOP -->
+    <header class="tp-topbar w3-hide-small">
+        <nav class="tp-topbar-inner" aria-label="Navigation principale">
+            <a href="index.html" class="tp-brand">
+                <img src="img/technoportail3.ico" alt="">
+                <span>Technoportail</span>
+            </a>
+
+            <div class="tp-topbar-links">
+                <a href="classeurs.html" class="active" aria-current="page">
+                    <i class="fas fa-book-atlas"></i> Classeur
+                </a>
+                <a href="activites.html">
+                    <i class="fas fa-desktop"></i> Activités
+                </a>
+                <a href="projets.html">
+                    <i class="fas fa-shapes"></i> Projets
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="classeurs-content">
+
+        <header class="classeurs-header w3-center">
+            <h1>Le classeur du professeur</h1>
+            <p>Retrouve les cours, activités et fiches de connaissances organisés par chapitre.</p>
+        </header>
+
+        <!-- RECHERCHE -->
+        <div class="classeurs-search search-container">
+            <input type="search" id="searchInput" placeholder="Rechercher un document...">
             <i class="fas fa-search search-icon"></i>
         </div>
-		
-		<!-- Filtres classe -->
-		<div class="filter-bar" id="classFilterBar">
-		  <button class="filter-btn active" data-classe="tout">Tout</button>
-		  <button class="filter-btn" data-classe="5e">5e</button>
-		  <button class="filter-btn" data-classe="4e">4e</button>
-		  <button class="filter-btn" data-classe="3e">3e</button>
-		</div>
 
-        <!-- Container qui recevra les accordéons -->
-        <div id="accordionContainer"></div>
+        <!-- FILTRES -->
+        <div class="classeurs-class-filters" id="classFilters"></div>
 
-        <div class="spacer"></div>
-		
-    </div>
+        <div class="classeurs-layout w3-row-padding">
 
-    <!-- Bottom Navigation Bar -->
-    <div class="bottom-bar">
-        <div class="icon-btn" onclick="window.location.href='index.html'">
-            <i class="fas fa-home"></i>
-        </div>
-        <div class="icon-btn active">
-            <i class="fas fa-book-atlas"></i>
-        </div>
-        <div class="icon-btn" onclick="window.location.href='activites.html'">
-            <i class="fas fa-desktop"></i>
-        </div>
-        <div class="icon-btn" onclick="window.location.href='projets.html'">
-            <i class="fas fa-shapes"></i>
-        </div>
-    </div>
-		
-	<script src="js/docs.js"></script>	
-    <script src="js/script.js"></script>
+            <!-- DESKTOP : CHAPITRES -->
+            <aside class="classeurs-sidebar w3-col m4 l3 w3-hide-small">
+                <div class="classeurs-sidebar-inner">
+                    <h2 id="sidebarTitle">Thèmes</h2>
+                    <div id="chapterNav"></div>
+                </div>
+            </aside>
 
+            <!-- DESKTOP : DOCUMENTS -->
+            <section class="classeurs-desktop w3-col m8 l9 w3-hide-small">
+                <div class="classeurs-results-heading">
+                    <h2 id="resultsTitle">Tous les chapitres</h2>
+                    <span id="resultsCount"></span>
+                </div>
+                <div class="classeurs-documents" id="documentsGrid"></div>
+                <p class="classeurs-empty" id="desktopEmpty" hidden>Aucun document trouvé.</p>
+            </section>
+
+            <!-- MOBILE : ACCORDÉONS -->
+            <section class="classeurs-mobile w3-col s12 w3-hide-medium w3-hide-large">
+                <div id="accordionContainer"></div>
+                <p class="classeurs-empty" id="mobileEmpty" hidden>Aucun document trouvé.</p>
+            </section>
+
+        </div>
+    </main>
+
+    <!-- NAVIGATION MOBILE -->
+    <nav class="home-bottom-nav w3-bar w3-white w3-bottom w3-hide-medium w3-hide-large" aria-label="Navigation mobile">
+        <a href="index.html" class="w3-bar-item w3-button w3-center home-nav-item">
+            <i class="fas fa-home"></i><span>Accueil</span>
+        </a>
+        <a href="classeurs.html" class="w3-bar-item w3-button w3-center home-nav-item home-nav-active" aria-current="page">
+            <i class="fas fa-book-atlas"></i><span>Classeur</span>
+        </a>
+        <a href="activites.html" class="w3-bar-item w3-button w3-center home-nav-item">
+            <i class="fas fa-desktop"></i><span>Activités</span>
+        </a>
+        <a href="projets.html" class="w3-bar-item w3-button w3-center home-nav-item">
+            <i class="fas fa-shapes"></i><span>Projets</span>
+        </a>
+    </nav>
+
+    <script src="js/docs.js"></script>
+    <script src="js/classeurs-layout.js"></script>
 </body>
 </html>
