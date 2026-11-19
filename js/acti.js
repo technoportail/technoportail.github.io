@@ -35,14 +35,6 @@
         "type": "acti_num"
       },
 	  {
-        "titre": "Chaine d'énergie des objets du quotidien",
-        "fichier": "https://docs.google.com/forms/d/e/1FAIpQLScW2giDu6jSCWzIlFe1GfRFMCcTaxyyUxYaBkYrvCerL4usuA/viewform?usp=dialog",
-		"im": "img/vignettes_acti/chaine_ener_moteur.jpg",
-        "theme": "Chaîne d'énergie",
-        "classe": "4e",
-        "type": "acti_num"
-      },
-	  {
         "titre": "Choisir un pont adapté à une situation ",
         "fichier": "https://docs.google.com/forms/d/e/1FAIpQLSfyRYqEiIR8Fii40qFJ4W2Hpx_vNFefj2wj2AJG_2c90JyaqQ/viewform?usp=dialog",
 		"im": "img/vignettes_acti/pont_situation.jpg",
@@ -64,6 +56,14 @@
 		"im": "img/vignettes_acti/angrybirds_vignette.jpg",
         "theme": "Intelligence artificielle",
         "classe": "5e",
+        "type": "acti_num"
+      },
+	  {
+        "titre": "Chaine d'énergie des objets du quotidien",
+        "fichier": "https://docs.google.com/forms/d/e/1FAIpQLScW2giDu6jSCWzIlFe1GfRFMCcTaxyyUxYaBkYrvCerL4usuA/viewform?usp=dialog",
+		"im": "img/vignettes_acti/chaine_ener_moteur.jpg",
+        "theme": "Chaîne d'énergie",
+        "classe": "3e",
         "type": "acti_num"
       },
 	  {
