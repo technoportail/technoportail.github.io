@@ -201,7 +201,7 @@
         "fichier": "https://drive.google.com/file/d/1L4KjCB97pkyh1pnrglYS2rGQvu9DOKSQ/view?usp=drive_link",
         "theme": "Structure et fonctionnement des OST",
         "classe": "3e",
-		"chapitre": "Chapitre 3\nRéseaux Informatiques",
+		"chapitre": "Chapitre 3\nRéseaux informatiques",
         "type": "cours_manu"
       },
 	  {
@@ -209,7 +209,7 @@
         "fichier": "https://drive.google.com/file/d/1SEJaC2jcjsi26b95_HvsVgHFff6zVsg9/view?usp=drive_link",
         "theme": "Structure et fonctionnement des OST",
         "classe": "3e",
-		"chapitre": "Chapitre 3\nRéseaux Informatiques",
+		"chapitre": "Chapitre 3\nRéseaux informatiques",
         "type": "cours"
       },
 	  {
@@ -217,7 +217,7 @@
         "fichier": "https://drive.google.com/file/d/1pyO5Zjxtbr1qlryGnM2i_sHYeJ4-HwlE/view?usp=drive_link",
         "theme": "Structure et fonctionnement des OST",
         "classe": "3e",
-		"chapitre": "Chapitre 3\nRéseaux Informatiques",
+		"chapitre": "Chapitre 3\nRéseaux informatiques",
         "type": "cours_manu"
       },
 	  // Concevoir et réaliser des OST
