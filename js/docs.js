@@ -173,35 +173,11 @@
         "type": "acti_ecrite"
       },
 	  {
-        "titre": "Les Composants d'Internet",
-        "fichier": "https://drive.google.com/file/d/1L4KjCB97pkyh1pnrglYS2rGQvu9DOKSQ/view?usp=drive_link",
-        "theme": "Structure et fonctionnement des OST",
-        "classe": "3e",
-		"chapitre": "Chapitre 2\nRéseaux Informatiques",
-        "type": "cours_manu"
-      },
-	  {
-        "titre": "Réseau internet et www",
-        "fichier": "https://drive.google.com/file/d/1SEJaC2jcjsi26b95_HvsVgHFff6zVsg9/view?usp=drive_link",
-        "theme": "Structure et fonctionnement des OST",
-        "classe": "3e",
-		"chapitre": "Chapitre 2\nRéseaux Informatiques",
-        "type": "cours"
-      },
-	  {
-        "titre": "L'Adresse IP",
-        "fichier": "https://drive.google.com/file/d/1pyO5Zjxtbr1qlryGnM2i_sHYeJ4-HwlE/view?usp=drive_link",
-        "theme": "Structure et fonctionnement des OST",
-        "classe": "3e",
-		"chapitre": "Chapitre 2\nRéseaux Informatiques",
-        "type": "cours_manu"
-      },
-	  {
         "titre": "Programmation Microbit",
         "fichier": "https://drive.google.com/file/d/13h0DVnZfeY_yIzGLk3VlvN3IH8T8xSua/view?usp=drive_link",
         "theme": "Structure et fonctionnement des OST",
         "classe": "3e",
-		"chapitre": "Chapitre 3\nInformatique Embarquée",
+		"chapitre": "Chapitre 2\nChaîne d'information",
         "type": "acti_num"
       },
 	  {
@@ -209,7 +185,7 @@
         "fichier": "https://drive.google.com/file/d/1HpkBTl4JycDl1g0mDpyq8a5Q8PQKIIJe/view?usp=drive_link",
         "theme": "Structure et fonctionnement des OST",
         "classe": "3e",
-		"chapitre": "Chapitre 3\nInformatique Embarquée",
+		"chapitre": "Chapitre 2\nChaîne d'information",
         "type": "cours"
       },
 	  {
@@ -217,8 +193,32 @@
         "fichier": "https://drive.google.com/file/d/1Wcl94UFWTl9WSgAsYEqMTdKnxvHsw5-b/view?usp=drive_link",
         "theme": "Structure et fonctionnement des OST",
         "classe": "3e",
-		"chapitre": "Chapitre 3\nInformatique Embarquée",
+		"chapitre": "Chapitre 2\nChaîne d'information",
         "type": "acti_groupe"
+      },
+	{
+        "titre": "Les Composants d'Internet",
+        "fichier": "https://drive.google.com/file/d/1L4KjCB97pkyh1pnrglYS2rGQvu9DOKSQ/view?usp=drive_link",
+        "theme": "Structure et fonctionnement des OST",
+        "classe": "3e",
+		"chapitre": "Chapitre 3\nRéseaux Informatiques",
+        "type": "cours_manu"
+      },
+	  {
+        "titre": "Réseau internet et www",
+        "fichier": "https://drive.google.com/file/d/1SEJaC2jcjsi26b95_HvsVgHFff6zVsg9/view?usp=drive_link",
+        "theme": "Structure et fonctionnement des OST",
+        "classe": "3e",
+		"chapitre": "Chapitre 3\nRéseaux Informatiques",
+        "type": "cours"
+      },
+	  {
+        "titre": "L'Adresse IP",
+        "fichier": "https://drive.google.com/file/d/1pyO5Zjxtbr1qlryGnM2i_sHYeJ4-HwlE/view?usp=drive_link",
+        "theme": "Structure et fonctionnement des OST",
+        "classe": "3e",
+		"chapitre": "Chapitre 3\nRéseaux Informatiques",
+        "type": "cours_manu"
       },
 	  // Concevoir et réaliser des OST
 	  {
